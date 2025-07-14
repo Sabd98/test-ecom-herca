@@ -1,4 +1,4 @@
-1. Buka link : https://github.com/Sabd98/customer-analytic-higo 
+1. Buka link : https://github.com/Sabd98/test-ecom-herca
 2. Kemudian unduh repository atau git clone repo diatas
 3. Buka IDE masing-masing (VSCode,sublime,dll) 
 4. Redirect ke folder backend dahulu untuk menyalakan server. 
