@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "2ea4192f-6199-43a4-825b-a20284ddb234",
+		"name": "commision-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "42601421"
+	},
+	"item": [
+		{
+			"name": "commision-fetch",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "payment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"selling_id\": 1,\r\n  \"amount_paid\": 2500000,\r\n  \"payment_date\": \"2023-06-15\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/payments"
+			},
+			"response": []
+		},
+		{
+			"name": "paymentId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/payments/2"
+			},
+			"response": []
+		},
+		{
+			"name": "saleId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/sales/2"
+			},
+			"response": []
+		},
+		{
+			"name": "sales-fetch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/sales/2"
+			},
+			"response": []
+		}
+	]
+}
